@@ -28,7 +28,7 @@ class ViewController: UIViewController,UITableViewDataSource {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell:UITableViewCell?=tableView.dequeueReusableCellWithIdentifier(cellIdentifier) as! UITableViewCell?
+        var cell:UITableViewCell?=tableView.dequeueReusableCellWithIdentifier(cellIdentifier) as UITableViewCell?
         if cell==nil{
             cell=UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: cellIdentifier)
         }
